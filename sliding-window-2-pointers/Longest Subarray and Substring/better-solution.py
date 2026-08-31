@@ -15,3 +15,7 @@ def longest_subarray_ultimate(nums, k):
 nums = [2, 5, 1, 7, 10]
 k = 14
 print(longest_subarray_ultimate(nums, k)) 
+
+
+#If the array contains negative numbers, the sliding window completely breaks. Please learn the Prefix Sum + Hash Map approach to solve subarray problems with negative numbers?
+
