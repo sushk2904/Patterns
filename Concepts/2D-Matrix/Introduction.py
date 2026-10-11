@@ -29,3 +29,12 @@ for i in range(0, rows):
         else:
             print("*", end = " ")
     print()
+
+print("Diagonal Elements")
+for i in range(0, rows):
+    for j in range(0, cols):
+        if i == j:
+            print(nums[i][j], end = " ")
+        else:
+            print("*", end = " ")
+    print()
